@@ -64,7 +64,14 @@ export default defineConfig({
   lang: 'zh-CN',
   title: 'My Knowledge',
   description: 'Personal Knowledge Base',
+  base: '/',        // 用户站点使用根路径
   cleanUrls: true,
+
+  vite: {
+    ssr: {
+      noExternal: ['vitepress-carbon']
+    }
+  },
 
   themeConfig: {
     // 顶部导航栏
