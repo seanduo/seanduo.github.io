@@ -1,1 +1,0 @@
-import{_ as e,o as t,a as r,a5 as n}from"./chunks/framework.B_MnaIyg.js";const p=JSON.parse('{"title":"AI","description":"","frontmatter":{},"headers":[],"relativePath":"ai/index.md","filePath":"ai/index.md"}'),i={name:"ai/index.md"};function o(d,a,l,s,h,_){return t(),r("div",null,[...a[0]||(a[0]=[n("",8)])])}const m=e(i,[["render",o]]);export{p as __pageData,m as default};
